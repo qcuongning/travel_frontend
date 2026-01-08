@@ -13,7 +13,7 @@ export default async function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/akina_hero.png" // Ensure this image exists
+            src="/images/bia.jpeg" // Ensure this image exists
             alt="Alps"
             fill
             className="object-cover"
@@ -43,9 +43,9 @@ export default async function Home() {
 
             {/* Center Title */}
             <div className="text-center text-white space-y-6">
-              <h2 className="text-sm font-light tracking-[0.3em] uppercase opacity-80">Akina Hotel</h2>
+              <h2 className="text-sm font-light tracking-[0.3em] uppercase opacity-80">Minh Phuong Travel</h2>
               <h1 className="text-5xl md:text-7xl font-light tracking-tight">
-                Trip to the Alps
+                Hello Minh Phuong
               </h1>
               <button className="px-8 py-3 bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-md rounded-full text-sm font-medium tracking-wide transition-all">
                 View trip selection
@@ -78,7 +78,7 @@ export default async function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-akina-purple rounded-[2.5rem] p-8 md:p-12 text-white shadow-xl">
           <div className="relative h-64 md:h-96 w-full rounded-3xl overflow-hidden shadow-lg border border-white/10">
             <Image
-              src="/images/italy.png" // Fallback to other images
+              src="/images/1.jpeg" // Fallback to other images
               alt="Hotel in Grenoble"
               fill
               className="object-cover"
@@ -124,7 +124,7 @@ export default async function Home() {
             </div>
             <div className="relative h-64 rounded-3xl overflow-hidden">
               <Image
-                src="/images/amalfi.png"
+                src="/images/2.jpeg"
                 alt="Mountain Trip"
                 fill
                 className="object-cover"
@@ -140,14 +140,14 @@ export default async function Home() {
       {/* Footer Banner */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="/images/iceland.png"
+          src="/images/3.jpeg"
           alt="Footer Banner"
           fill
           className="object-cover brightness-75"
         />
         <div className="absolute inset-0 flex flex-col justify-end items-center pb-20">
           <div className="flex flex-col items-center">
-            <h2 className="text-4xl md:text-5xl font-light text-white tracking-[0.2em] mb-2 uppercase">Akina</h2>
+            <h2 className="text-4xl md:text-5xl font-light text-white tracking-[0.2em] mb-2 uppercase">Minh Phuong</h2>
             <span className="text-white/80 text-xl font-light tracking-widest uppercase">Hotel</span>
           </div>
 

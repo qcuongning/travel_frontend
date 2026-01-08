@@ -22,7 +22,7 @@ export function Navbar() {
                     <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
                         {/* Akina style: Simple clean text logo */}
                         <span className="text-xl tracking-[0.2em] font-light text-white uppercase">
-                            Akina Hotel
+                            Minh Phuong Travel
                         </span>
                     </Link>
                 </div>
